@@ -1,0 +1,53 @@
+[
+  {
+    "server": "104.116.235.114",
+    "server_port": 2053,
+    "password": "phcorner",
+    "method": "aes-128-gcm",
+    "plugin": "v2ray",
+    "plugin_opts": "loglevel=none;host=anino.phcdns.ga;tls",
+    "remarks": "PHCORNER",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": true,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "104.17.64.2",
+    "server_port": 443,
+    "password": "3fcb0d39-ca6e-4935-9458-b4f043194f41",
+    "method": "chacha20-ietf-poly1305",
+    "plugin": "v2ray-plugin",
+    "plugin_opts": "path=\/e89bf6025d4a4;mux=0;host=ca2.xamjyss.education;tls",
+    "remarks": "ca2.xamjyss.education (SS)",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "104.17.64.2",
+    "server_port": 443,
+    "password": "3fcb0d39-ca6e-4935-9458-b4f043194f41",
+    "method": "aes-128-gcm",
+    "plugin": "v2ray-plugin",
+    "plugin_opts": "path=\/e89bf6025d4a4;mux=0;host=ca2.xamjyss.education;tls",
+    "remarks": "ca2.xamjyss.education (SS)",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  }
+]
